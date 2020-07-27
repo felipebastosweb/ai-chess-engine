@@ -6,3 +6,6 @@ class Rook(Piece):
             pass
         if not self.is_black:
             pass
+    # Convert in str
+    def __str__():
+        return "R" if self.is_black else "r"
