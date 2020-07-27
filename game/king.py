@@ -6,3 +6,6 @@ class King(Piece):
             pass
         if not self.is_black:
             pass
+    # Convert in str
+    def __str__():
+        return "K" if self.is_black else "k"
