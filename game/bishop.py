@@ -6,3 +6,6 @@ class Bishop(Piece):
             pass
         if not self.is_black:
             pass
+    # Convert in str
+    def __str__():
+        return "B" if self.is_black else "b"
