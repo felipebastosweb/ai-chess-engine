@@ -6,4 +6,7 @@ class Pawen(Piece):
             pass
         if not self.is_black:
             pass
+    # Convert in str
+    def __str__():
+        return "P" if self.is_black else "p"
     
